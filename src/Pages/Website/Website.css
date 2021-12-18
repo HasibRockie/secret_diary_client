@@ -1,0 +1,29 @@
+.about{
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 80px;
+    padding: 20px 50px;
+    text-align: left;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+}
+
+@media screen and (max-width:900px){
+    .about{
+        width: 80%;
+        margin: auto;
+        border: 2px solid black;
+        margin-top: 80px;
+        padding: 40px 10px;
+        text-align: left;
+        font-size: 1rem;
+        background-color: rgba(0, 0, 0, 0.705);
+        color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 5px gray;
+    }
+}

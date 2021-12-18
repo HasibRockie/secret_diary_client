@@ -1,0 +1,70 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 25px;
+    padding: 40px 70px;
+}
+.note h4, .note h5{
+    margin: 10px;
+}
+
+.note h3{
+    color: rgb(53, 53, 53);
+    
+    font-family:'Poppins';
+}
+
+.note{
+    
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 0 0 3px rgba(156, 156, 156, 0.562);
+    padding: 35px 20px;
+    background-color: rgb(243, 215, 210);
+}
+
+.note
+{
+  position: relative;
+}
+.note:before, .note:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+.note:after
+{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}
+
+
+
+@media screen and (max-width:900px){
+  .container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 35px;
+    padding: 20px 30px;
+}
+}

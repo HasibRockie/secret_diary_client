@@ -1,0 +1,107 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.534);
+}
+
+.nav i {
+  padding: 5px 100px 5px 45px;
+  color: white;
+}
+
+.nav h1 {
+  color: white;
+}
+
+.input {
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin: 30px 65px;
+  padding: 100px 10px;
+  border: 1px solid black;
+  background-color: rgba(253, 245, 230, 0.486);
+}
+
+form input {
+  background-color: rgba(153, 110, 110, 0.103);
+  height: 30px;
+  border: 0;
+  border-bottom: 3px solid gray;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+form textarea {
+    background-color: rgba(153, 110, 110, 0.103);
+  height: 100px;
+  border: 0;
+  border-bottom: 3px solid gray;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+form button {
+  background-color: rgba(36, 23, 23, 0.103);
+  border: 0 0 3px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.589);
+  color: white;
+  padding: 7px 10px 7px;
+}
+
+.success{
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: green;
+    color: white;
+    width: 60%;
+    font-size: 1rem;
+    text-align: center;
+    margin: auto;
+}
+.success h2,.failed h2{
+    margin: 0;
+}
+
+.success i,.failed i{
+    padding: 5px 10px;
+}
+
+.failed{
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: red;
+    color: white;
+    width: 60%;
+    font-size: 1rem;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width:900px){
+  .input {
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content {
+    margin: 30px 25px;
+    padding: 100px 10px;
+    border: 1px solid black;
+    background-color: rgba(253, 245, 230, 0.486);
+  }
+}
